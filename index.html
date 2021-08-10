@@ -2,11 +2,19 @@
 <html lang="pt-br">
     <head>
         <title>Minha Página</title>
+        
+        <!-- Meta tags Obrigatórias -->
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="C:\Users\Acer\Downloads\bootstrap-4.1.3-dist\css\bootstrap.min.css">
+        
     </head>
     <body>
+        
+        <!-- Barra de Navegação -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light margin">
                 <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
                     <ul class="navbar-nav">
@@ -29,10 +37,14 @@
                 </div>
         </nav>
 
+        <!-- Quem somos -->
         <section id="quemsomos">
             <div class="container-fluid quem-somos text-center margin">
                 <h3 class="margin">QUEM SOMOS</h3>
                 <p>Este projeto conta com o trabalho colaborativo de diferentes regiões do Brasil.</p>
+                
+                
+                <!-- Início Carousel -->
                 <div class="row">
                     <div class="col-md-12">
                         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -105,11 +117,14 @@
                                 </div>
                           </div>
                 </div>
+                <!-- Fim Carousel -->
         
+                            
                 <h3>"Se deseja ir rápido, vá sozinho. Se deseja ir longe, vá em grupo"</h3>
             </div>
         </section>
 
+        <!-- Nosso Projeto -->
         <section id="nossoprojeto">
             <div class="container-fluid nosso-projeto text-center margin">
                 <h3>NOSSO PROJETO</h3>
@@ -117,6 +132,7 @@
             </div>
         </section>
 
+        <!-- Tecnologias -->            
         <section id="tecnologias">
             <div class="container-fluid text-center margin tecnologias">
                 <h3>TECNOLOGIAS UTILIZADAS</h3>
@@ -137,6 +153,7 @@
             </div>
         </section>
 
+        <!-- Etapas de Projeto -->
         <section id="etapasprojeto">
             <div class="container-fluid etapas-projeto text-center margin">
                 <h3>WORKFLOW</h3>
@@ -162,9 +179,10 @@
                 </div>
             </div>
         </section>
-
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
     </body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    
 </html>
